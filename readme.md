@@ -14,4 +14,4 @@ Provides documentation for the GSD5 project.
 
 1. Open a TW5 environment.
 1. Drag-and-drop `*.tid` files into TW5 environment.
-!. Click *Import*.
+1. Click *Import*.

@@ -1,0 +1,10 @@
+title: GSD5 API
+
+The GSD5 API will provide GSD5 plugin authors an easy way to integrate their plugins into the GSD5 framework without heavy editing of the shadow tiddlers (hopefully no editing).
+
+Learning from TW5 plugin model and the use of system tags, the goals is to allow the author spend time crafting their plugin and not integrating it into the GSD5 framework.
+
+! GSD5 System Tags
+
+* [[$:/tags/GSD5Plugin|GSD5Plugin]] - Add panels to the GSD5 Control Panel tab.
+* [[$:/tags/GSD5Lists|GSD5Lists]] - Allow list to be displayed on Dashboard.

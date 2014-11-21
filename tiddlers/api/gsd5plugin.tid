@@ -1,0 +1,6 @@
+title: GSD5Plugin
+tags: API
+
+The `$:/tags/GSD5Plugin` tag is used on tiddlers that provide a end-user interface for tweaking a plugin's settings.  Also referred to a control panel, the tagged tiddler will be rendered in TW5 Control Panel as a tab under the GSD5 tab.
+
+Additionally, providing the field `caption` will allow for a user-friendly name on the tab.

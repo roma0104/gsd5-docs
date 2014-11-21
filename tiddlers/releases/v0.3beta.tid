@@ -1,0 +1,16 @@
+title: v0.3beta
+creator: Roma
+tags: release
+
+! Added Features
+
+* A References list. Provide a means of viewing references without going through the project tiddler.
+* The pseudo-realm 'all'. Allows all actions and project to be viewed at once regardless of assigned realm.
+* Allow the user to toggle the display of the realm selector on the Dashboard.
+
+! Corrected Bugs
+
+* Newly created action/projects/contact/reference/realm trigger autosave.
+* Projects and actions that are marked completed trigger autosave, after dependent actions/projects are properly resolved.
+
+{{issues}}

@@ -1,0 +1,8 @@
+title: v0.3.1beta
+tags: [[current release]] release
+
+! Corrected Bugs
+
+* Corrected [[#16|https://github.com/roma0104/gsd5/issues/16]] issue where actions/projects displayed in another/all realm, displayed blank drop-lists or spawned child actions that were of another realm.
+
+{{issues}}

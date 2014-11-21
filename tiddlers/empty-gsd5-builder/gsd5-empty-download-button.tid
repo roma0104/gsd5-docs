@@ -1,0 +1,3 @@
+title: $:/gsd5-empty-download-button
+
+<$button message="tm-download-file" param="$:/snippet/gsd5-empty" class="tc-btn-big-green">Download Empty GSD5 {{$:/core/images/save-button}}</$button>

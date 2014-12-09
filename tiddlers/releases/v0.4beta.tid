@@ -1,0 +1,16 @@
+title: v0.4-beta
+creator: Roma
+tags: release prerelease
+
+! Added Features
+
+* Assign Contacts to Realms.  Contacts can be now associated with Realms allowing a user with a large number of Contacts to organise and traverse the list quickly.  Contacts are hidden using the same hiding mechanic as Actions/Projects when the non-associated Realm is selected.  For Contacts that transcend one Realm, assigning the Contact with no Realm will make that Contact available to all Realms.
+* Convert actions to projects.  Users can now convert actions that may need to be an project with a click of a button.
+* Waiting Actions are now displayed on a Contacts tiddler.  Selecting a Contact's tiddler displays all actions delegated to them.  Shows actions depending on the selected Realm.
+
+! Notes
+There is one API change that can break existing Realm definitions.  We switched the Realm definitions to use the `gsd_type` model instead of the system tag `$:/tags/realm`.  To correct this break we have provided a simple tool to fix your existing Realms.  Simple import the following tiddler and follow the instruction upgrade you custom Realms.
+
+[[Realm Conversion Tool]]
+
+{{issues}}

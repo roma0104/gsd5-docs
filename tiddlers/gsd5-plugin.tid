@@ -20,10 +20,12 @@ or
 >[[$:/plugins/gsd5/core]]
 
 !! Releases
+<$set name="currentRelease" filter="[tag[current release]]">
 
-* [[v0.3.1beta]]
-* [[Previous Releases]]
+* <$link to=<<currentRelease>>><<currentRelease>></$link>
+* [[See all releases|Releases]]
 
+</$set>
 ! Community
 ~TiddlyWiki has an active community and members will attempt to help you when they can.  If you need more immediate assistance leave a message.
 

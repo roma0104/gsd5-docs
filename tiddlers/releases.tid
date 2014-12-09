@@ -1,0 +1,5 @@
+title: Releases
+
+<$set name="currentRelease" filter="[tag[current release]]">
+<$macrocall $name="tabs" tabsList="[tag[release]!tag[prerelease]!sort[released]]" default=<<currentRelease>> state="$:/state/releasetab" class="tc-vertical" template="ReleaseTemplate" />
+</$set>

@@ -1,0 +1,31 @@
+title: GSD5 List Macro
+tags: GSD5Macros
+
+The GSD5 List Macro unifies previous list macros under a single macro that creates a titled list of desired gsd_type with several desired options.
+
+|>|>| !gsd5-list |
+| !Field | !Values | !Note |
+|gsd_type |action |<span style="font-style:italic">Default</span> |
+|~|project | |
+|~|contact | |
+|~|reference | |
+|~|context | |
+|~|realm | |
+|gsd_status |next |<span style="font-style:italic">Default; Action Only</span> |
+|~|waiting |<span style="font-style:italic">Action Only</span> |
+|~|future |<span style="font-style:italic">Action and Project</span> |
+|~|active |<span style="font-style:italic">Project Only</span> |
+|gsd_complete |false |<span style="font-style:italic">Default</span> |
+|~|true | |
+|realmAware |false |<span style="font-style:italic">Default</span> |
+|~|true | |
+|sort |title |<span style="font-style:italic">Default</span> |
+|~|<span style="font-style:italic">user-defined</span> | |
+|order |ascending |<span style="font-style:italic">Default</span> |
+|~|descending | |
+|groupBy |none |<span style="font-style:italic">Default; no grouping</span> |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is a tiddler field.</span> |
+|customFilter |none |<span style="font-style:italic">Default; no custom filter applied.</span> |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Filter operands appended to gsd_type filtering. No outside brackets.</span> |
+|dateTemplate |DDth MMM YYYY |<span style="font-style:italic">Default</span> |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">String conforming to ~TiddlyWiki <a href="http://tiddlywiki.com/#DateFormat">date template syntax</a>.</span> |

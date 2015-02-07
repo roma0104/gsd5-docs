@@ -1,0 +1,5 @@
+title: GSD5ActionPlugin
+caption: $:/tags/GSD5ActionPlugin
+tags: BlueBoxTags API
+
+The `$:/tags/GSD5ActionPlugin` tag is used to provide a end-user interface in [[Action]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[blue-box|Blue-Box]].  

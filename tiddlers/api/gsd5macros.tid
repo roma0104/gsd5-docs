@@ -1,0 +1,11 @@
+title: GSD5Macros
+tags: GSD5Basics
+
+GSD5 macros can assist in creating useful interfaces.
+
+!Marcos
+
+:[[GSD5 List Macro]]
+;A large macro that builds a list of items that are a recognized gsd_type value, group them, and sort according to user preference.  Designed to be non-programmer friendly but still flexible and powerful.
+
+:[[]]

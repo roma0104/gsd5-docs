@@ -1,0 +1,16 @@
+title: v0.5.1-beta
+creator: Roma
+tags: release
+released: 20150206000000000
+
+! Added Features
+
+* Collapsible BlueBox.  The BlueBox found on GSD5 tiddlers can be minimized to reduce screen space when needed.  A Tiddler View Toolbar button is provided to toggle states.
+* GSD5 List Macro rewrite.  A new macro is provided to build lists.  Combines several smaller macros into a single macro.  This should make it easier for non-programmers to create customized lists.  There is no formal documentation for the macro at this time.
+* Show/hide new GSD5 tiddlers.  GSD5 tiddlers can be shown or hidden based upon user preferences.
+* Action Contexts.  Actions can be given contexts, allows users to further categorise Actions into related groups even though they may not be of the same Project.
+* No-Next-Action List.  List of Projects that do not have a Next Action associated with it.
+* CSS classes on Buttons/Widgets.  Buttons and Widgets previously without CSS classes now have GSD5 CSS classes.
+
+! Notes
+There is non-critical breakage of user configuration.  The solution is to reassert user preferences.

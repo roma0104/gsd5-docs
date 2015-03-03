@@ -2,4 +2,14 @@ title: GSD5Review
 caption: $:/tags/GSD5Review
 tags: GSD5SystemTags API
 
+! Summary
+
+Adds link to the Review tab.
+
+! Detail
+
 The `$:/tags/GSD5Review` tag is used on tiddlers that provide custom review views and creates a link on the Review tab.
+
+! Best Practice
+
+//--none--//

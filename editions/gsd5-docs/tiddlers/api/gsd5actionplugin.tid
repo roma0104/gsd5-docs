@@ -2,4 +2,20 @@ title: GSD5ActionPlugin
 caption: $:/tags/GSD5ActionPlugin
 tags: BlueBoxTags API
 
-The `$:/tags/GSD5ActionPlugin` tag is used to provide a end-user interface in [[Action]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[blue-box|Blue-Box]].  
+! Summary
+
+Adds custome controls to the BlueBox for Actions.
+
+! Detail
+
+The `$:/tags/GSD5ActionPlugin` tag is used to provide a end-user interface in [[Action]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[Blue-Box]].
+
+! Best Practice
+
+* If creating custome controls prefer this tag over [[$:/tags/GSD5ActionCore|GSD5ActionCore]].
+* Ordering of control rendering can be done through creating a ordered list using the tag as the title.  However, this can be overwritten by other plugins.  Do not depend on controls maintaining order.
+* If using custom CSS, prefer relative sizing of elements over fixed/absolute.
+
+//Also See://
+
+* [[$:/tags/GSD5ActionCore|GSD5ActionCore]]

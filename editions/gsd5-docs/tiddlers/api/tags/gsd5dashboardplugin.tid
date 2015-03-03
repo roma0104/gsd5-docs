@@ -1,0 +1,23 @@
+title: GSD5DashboardPlugin
+caption: $:/tags/GSD5DashboardPlugin
+tags: BlueBoxTags API
+
+! Summary
+
+Adds custom controls to the BlueBox for the primary [[Dashboard]].
+
+! Detail
+
+The `$:/tags/GSD5DashboardPlugin` tag is used to provide a end-user interface in the [[Dashboard]].  A tiddler with this tag will have its contents rendered in the right column of the [[Blue-Box]].
+
+! Best Practice
+
+* If creating custom controls prefer this tag over [[$:/tags/GSD5DashboardCore|GSD5DashboardCore]].
+* Ordering of control rendering can be done through creating a ordered list using the tag as the title.  However, this can be overwritten by other plugins.  Do not depend on controls maintaining order.
+* If using custom CSS, prefer relative sizing of elements over fixed/absolute.
+
+---
+
+__''Also See:''__
+
+* [[$:/tags/GSD5DashboardCore|GSD5DashboardCore]]

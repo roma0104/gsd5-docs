@@ -1,0 +1,3 @@
+title: BestPractice CustomCSS
+
+If using custom CSS, prefer relative sizing of elements over fixed/absolute.

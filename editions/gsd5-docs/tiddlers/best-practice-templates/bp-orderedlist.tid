@@ -1,0 +1,3 @@
+title: BestPractice OrderedList
+
+Ordering of control rendering can be done through creating a ordered list using the tag as the title.  However, this can be overwritten by other plugins.  Do not depend on controls maintaining order.

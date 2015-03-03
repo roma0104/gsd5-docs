@@ -13,8 +13,8 @@ The `$:/tags/GSD5ActionPlugin` tag is used to provide a end-user interface in [[
 ! Best Practice
 
 * If creating custom controls prefer this tag over [[$:/tags/GSD5ActionCore|GSD5ActionCore]].
-* Ordering of control rendering can be done through creating a ordered list using the tag as the title.  However, this can be overwritten by other plugins.  Do not depend on controls maintaining order.
-* If using custom CSS, prefer relative sizing of elements over fixed/absolute.
+* {{BestPractice OrderedList!!text}}
+* {{BestPractice CustomCSS!!text}}
 
 ---
 

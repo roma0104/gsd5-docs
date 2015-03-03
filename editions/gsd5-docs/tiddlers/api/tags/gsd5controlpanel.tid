@@ -14,4 +14,4 @@ Additionally, providing the field `caption` will allow for a user-friendly name 
 
 ! Best Practice
 
-* If using custom CSS, prefer relative sizing of elements over fixed/absolute.
+* {{BestPractice CustomCSS!!text}}

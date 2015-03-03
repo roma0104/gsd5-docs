@@ -13,7 +13,7 @@ The `$:/tags/GSD5DashboardCore` tag is used to provide a end-user interface in t
 ! Best Practice
 
 * Generally, plugin authors should avoid tagging their custom controls with this tag and use the [[$:/tags/GSD5DashboardPlugin|GSD5DashboardPlugin]] instead.
-* If using custom CSS, prefer relative sizing of elements over fixed/absolute.
+* {{BestPractice CustomCSS!!text}}
 
 __''Also See:''__
 

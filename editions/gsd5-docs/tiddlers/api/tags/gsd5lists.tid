@@ -10,7 +10,7 @@ Add lists to the primary [[Dashboard]].
 
 The tag `$:/tags/GSD5Lists` allows authors to add a new list view to be included in the possible selection of lists displayed in the Dashboard.  Applying this tag to a list will not immediately display the list but include the list in the GSD5/core control panel.  Once checked, the list will display on the Dashboard.
 
-Lists are displayed in the order they appear in core control panel.  To change the ordering, overwriting of the tiddler [[$:/tags/GSD5Lists]] will be necessary.
+Lists are displayed in the order they appear in core control panel.  To change the ordering, overwriting of the tiddler `$:/tags/GSD5Lists` will be necessary.
 
 Providing the field `caption` provides a user-friendly caption the shortly summarizes the purpose of the list.  This is displayed in the GSD5/core control panel.
 
@@ -18,4 +18,4 @@ The default GSD5 lists for the Dashboard use the [[GSD5 List Macro]].
 
 ! Best Practice
 
-* Ordering of control rendering can be done through creating a ordered list using the tag as the title.  However, this can be overwritten by other plugins.  Do not depend on controls maintaining order.
+* {{BestPractice OrderedList!!text}}

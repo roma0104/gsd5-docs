@@ -12,7 +12,7 @@ The `$:/tags/GSD5ActionCore` tag is used to provide a end-user interface in [[Ac
 
 ! Best Practice
 
-* Generally, plugin authors should avoid tagging their custom controls with this tag and use the [[$:/tags/GSD5ActionPlugin|GSD5ActionPlugin]] tag in lieu.
+* Generally, plugin authors should avoid tagging their custom controls with this tag and use the [[$:/tags/GSD5ActionPlugin|GSD5ActionPlugin]] tag instead.
 * {{BestPractice CustomCSS!!text}}
 
 __''Also See:''__

@@ -1,0 +1,15 @@
+title: GSD5Collect
+caption: $:/tags/GSD5Collect
+tags: GSD5SystemTags API
+
+! Summary
+
+Adds button/link to the Collect tab.
+
+! Detail
+
+The `$:/tags/GSD5Collect` tag is used on tiddlers that provide custom collection buttons.
+
+! Best Practice
+
+//--none--//

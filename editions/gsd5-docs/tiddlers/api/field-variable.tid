@@ -10,7 +10,7 @@ It would meet the GSD5 canon to use fields when possible while authoring your GS
 
 ! GSD5 Field Variables List
 
-The following field/value list is used by the GSD5 core.  Using the fields for custom plugins is encouraged.  However, do realize that custom values assigned to standard fields might break the behaviour of GSD5 widgets or macros.
+The following field/value list is used by the GSD5 core.
 
 | !Field | !Values | !Note |
 |gsd_complete |false | |
@@ -29,3 +29,7 @@ The following field/value list is used by the GSD5 core.  Using the fields for c
 |~|reference | |
 |~|context | |
 |~|realm | |
+
+!Best Practice
+
+* Using the fields for custom plugins is encouraged.  However, do realize that custom values assigned to standard fields might break the behaviour of GSD5 widgets or macros.

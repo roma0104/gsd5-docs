@@ -17,7 +17,7 @@ The following field/value list is used by the GSD5 core.
 |~|true | |
 |gsd_contact |<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
 |gsd_project |<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
-|gsd_realm |all |<span style="font-style:italic">Default</span> |
+|gsd_realm |all | |
 |~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
 |gsd_status |next |<span style="font-style:italic">Action Only</span> |
 |~|waiting |<span style="font-style:italic">Action Only</span> |

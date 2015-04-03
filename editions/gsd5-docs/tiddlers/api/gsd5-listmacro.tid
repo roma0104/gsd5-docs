@@ -1,4 +1,4 @@
-title: GSD5 List Macro
+title: gsd5-list
 tags: GSD5Macros
 
 The GSD5 List Macro unifies previous list macros under a single macro that creates a titled list of desired gsd_type with several desired options.

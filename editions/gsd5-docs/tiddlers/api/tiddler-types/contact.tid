@@ -8,7 +8,7 @@ Contacts can be used as contact cards, a place to store phone, fax, email, and o
 ! Detail
 
 !! Field Variables
-The following field variables are used by Actions.
+The following field variables are used by Contacts.
 
 | !Field | !Values | !Note |
 |gsd_type |contact |Required value. |
@@ -23,4 +23,4 @@ Action tiddlers also display specific controls in the [[Blue-Box]].  UI Controls
 
 ! Best Practice
 
-//--none--//
+* {{BestPractice InterRealm!!text}}

@@ -15,5 +15,5 @@ Click the `Convert Realm` button below and your realm tiddlers will be updated t
 <$action-deletefield tags/>
 <$action-setfield $field="gsd_type" $value="realm"/>
 Convert Realm
-</$button>
+</$button><br/>
 </$list>

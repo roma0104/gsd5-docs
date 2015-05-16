@@ -1,14 +1,11 @@
 #!/bin/bash
 
 GSD5DOCS_DIR=`pwd`
-GSD5_DIR=$GSD5DOCS_DIR/../gsd5
-TIDDLYWIKI5_DIR=$GSD5_DIR/../TiddlyWiki5
+TIDDLYWIKI5_DIR=$GSD5DOCS_DIR/../TiddlyWiki5
 
 OUTPUT_DIR=$GSD5DOCS_DIR/output
-OUTPUT_FILE=gsd5-empty.html
+OUTPUT_FILE=gsd5-docs.html
 mkdir -p $OUTPUT_DIR
-
-export TIDDLYWIKI_PLUGIN_PATH=$GSD5_DIR/plugins
 
 ( cd $TIDDLYWIKI5_DIR && node ./tiddlywiki.js \
 	$GSD5DOCS_DIR/editions/gsd5-docs \

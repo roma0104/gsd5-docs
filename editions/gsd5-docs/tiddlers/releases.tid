@@ -1,7 +1,7 @@
-title: Releases
+title: GSD5 Releases
 
 Nightly builds are available at [[http://gsd5-nightly.tiddlyspot.com]].
 
-<$set name="currentRelease" filter="[tag[current release]]">
-<$macrocall $name="tabs" tabsList="[tag[release]!tag[prerelease]!sort[released]]" default=<<currentRelease>> state="$:/state/releasetab" class="tc-vertical" template="ReleaseTemplate" />
+<$set name="currentRelease" filter="[tag[current release]tag[GSD5]]">
+<$macrocall $name="tabs" tabsList="[tag[release]!tag[prerelease]!sort[released]tag[GSD5]]" default=<<currentRelease>> state="$:/state/releasetab" class="tc-vertical" template="ReleaseTemplate" />
 </$set>

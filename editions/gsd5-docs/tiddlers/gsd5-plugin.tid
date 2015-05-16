@@ -20,10 +20,10 @@ or
 >[[$:/plugins/gsd5/core]]
 
 !! Releases
-<$set name="currentRelease" filter="[tag[current release]]">
+<$set name="currentRelease" filter="[tag[current release]tag[GSD5]]">
 
 * <$link to=<<currentRelease>>><<currentRelease>></$link>
-* [[See all releases|Releases]]
+* [[See all releases|GSD5 Releases]]
 
 </$set>
 ! Community

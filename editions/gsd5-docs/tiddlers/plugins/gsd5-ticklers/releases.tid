@@ -1,0 +1,5 @@
+title: GSD5 Ticklers Releases
+
+<$set name="currentRelease" filter="[tag[current release]tag[GSD5Ticklers]]">
+<$macrocall $name="tabs" tabsList="[tag[release]!tag[prerelease]!sort[released]tag[GSD5Ticklers]]" default=<<currentRelease>> state="$:/state/releasetab" class="tc-vertical" template="ReleaseTemplate" />
+</$set>

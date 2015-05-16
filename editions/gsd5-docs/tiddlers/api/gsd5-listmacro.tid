@@ -16,6 +16,7 @@ The GSD5 List Macro unifies previous list macros under a single macro that creat
 |~|waiting |<span style="font-style:italic">Action Only</span> |
 |~|future |<span style="font-style:italic">Action and Project</span> |
 |~|active |<span style="font-style:italic">Project Only</span> |
+|~|none |<span style="font-style:italic">Ignores value of gsd_status</span> |
 |gsd_complete |false |<span style="font-style:italic">Default</span> |
 |~|true |Ignores the value of gsd_status. |
 |realmAware |false |<span style="font-style:italic">Default</span> |

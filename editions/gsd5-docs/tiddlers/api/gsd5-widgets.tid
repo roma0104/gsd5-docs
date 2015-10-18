@@ -1,0 +1,22 @@
+title: GSD5Widgets
+caption: GSD5 Widgets
+tags: GSD5Basics
+
+GSD5 uses custom widgets to drive the behaviour of the application.  Most widgets are based upon existing TiddlyWiki5 widgets and are called using the TiddlyWiki5 element syntax; `<$widget>`.
+
+! GSD5 Widgets
+
+;[[<$complete>]]
+:Mark the current Action or Project completed and then queue the dependent Action or Project as Next.
+
+;[[<$convert>]]
+:Changes the current Action tiddler to a Project tiddler.
+
+;[[<$gsdtiddler>]]
+:A button that creates a GSD5 tiddler.
+
+;[[<$prereq>]]
+:Set another GSD5 tiddler as the current tiddler's prerequisite, then sets the current tiddler's `gsd_status` to future.
+
+;[[<$toggle-button>]]
+:A button that behaves like the `<$radio>` widget except uses the HTML `<button>` instead of the HTML `<input>` element.

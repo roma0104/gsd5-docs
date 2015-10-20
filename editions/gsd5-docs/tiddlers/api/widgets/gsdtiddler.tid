@@ -1,0 +1,56 @@
+title: <$gsdtiddler>
+tags: GSD5Widgets
+
+! Introduction
+Create a new GSD5 tiddler.  To successfully implement the `<$gsdtiddler>` widget, the `<$set>` widget must be used in addition to content and attributes.
+
+! Content and Attributes
+
+The content of the `<$gsdtiddler>` widget is displayed within the button.
+
+|!Attribute |!Description |
+|skeleton |The skeleton tiddler to fill on trigger |
+|edit |After tiddler creation, show, edit, or do nothing.  (Default to show) |
+|tiddler |Used for on-the-fly GSD5 tiddler creation; parent tiddler to the new GSD5 tiddler. (Default is current tiddler) |
+|setNow |Used for on-the-fly GSD5 tiddler creation; set true for on-the-fly creation (default to false) |
+|title |Tooltip label |
+|aria-label |Optional accessibility label |
+|class |An optional CSS class name to be assigned to the HTML element |
+
+''Tip:'' Set ''class'' to `tc-btn-invisible tc-tiddlylink` to have a button look like an internal link.
+
+! Implementation
+The `<$gsdtiddler>` tag must be nested by `<$set>` widgets with specific names and values to successfully implement a skeleton.  Not all variables will be required or needed.  These variables set [[GSD5 Field Variables|GSD5FieldVariables]]. The follows set widget names and value options are supported.
+
+|!Name |!Values |!Description |
+|gsd_type |action, project, realm, contact, reference, context |Defines what type of GSD5 tiddler is to be created. |
+|gsd_status |next, waiting, future, active |Sets the status of the newly created GSD5 tiddler.  The applicable status depends on the gsd_type. |
+|gsd_complete |true, false |Set the status of the new tiddler to completed (true) or not-completed (false). |
+|gsd_realm |<em>user-defined</em> |Sets the Realm of the newly created GSD5 tiddler to a user-defined Realm. |
+|gsd_project |<em>user-defined</em> |Sets the parent Project of the newly created GSD5 tiddler. |
+
+See [[GSD5 Field Variables|GSD5FieldVariables]] for more detail on application and definition of key/value pairs.
+
+! Example
+The following is the code used to create a child, Next Action of a Project in the current Realm.
+
+```
+<$set name="gsd_type" value="action">
+<$set name="gsd_status" value="next">
+<$set name="gsd_complete" value="false">
+<$set name="gsd_project" value={{!!title}}>
+<$set name="gsd_realm" value={{!!gsd_realm}}>
+<$gsdtiddler skeleton="$:/plugins/gsd5/core/ui/skeletons/ActionSkeleton" title="Add new action" edit={{$:/plugins/gsd5/core/ui/config/new-action-show}} aria-label="new action" class="gsd-list-new-button tc-btn-invisible">
++
+</$gsdtiddler>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+```
+
+! Acknowledgments
+Special thanks to Stephan "Skeeve" Hradek for the ~NewTiddler plugin.
+Much of the code used to fill in skeleton tiddlers is his work.
+http://tiddlystuff.tiddlyspot.com

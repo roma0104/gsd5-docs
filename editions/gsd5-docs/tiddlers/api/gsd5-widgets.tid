@@ -19,4 +19,4 @@ GSD5 uses custom widgets to drive the behaviour of the application.  Most widget
 :Set another GSD5 tiddler as the current tiddler's prerequisite, then sets the current tiddler's `gsd_status` to future.
 
 ;[[<$toggle-button>]]
-:A button that behaves like the `<$radio>` widget except uses the HTML `<button>` instead of the HTML `<input>` element.
+:The `<$toggle>` widget gives the `<button>` element the ability to toggle states.

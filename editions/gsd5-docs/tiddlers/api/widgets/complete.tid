@@ -1,0 +1,18 @@
+title: <$complete>
+tags: GSD5Widgets
+
+! Introduction
+The complete widget shows if an Action or Project has been completed and allows marking the Action and Project as completed.  When a tiddler has been marked completed it also sets a field, `gsd_comp_date` to a TiddlyWiki5 date string.
+
+! Content and Attributes
+The content of the `<$complete>` widget is displayed within an HTML `<label>` element also containing the radio button. This means that clicking on the content will have the same effect as clicking on the button itself.
+
+|!Attribute |!Description |
+|tiddler |Title of the tiddler to manipulate (defaults to the current tiddler) |
+
+! Example
+This example changes the current tiddler's completion status.
+
+```
+<$complete>Completed?</$complete>
+```

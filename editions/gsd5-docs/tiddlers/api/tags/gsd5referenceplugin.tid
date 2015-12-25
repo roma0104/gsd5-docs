@@ -1,14 +1,14 @@
 title: GSD5ReferencePlugin
 caption: $:/tags/GSD5ReferencePlugin
-tags: BlueBoxTags API
+tags: GSDPanelTags API
 
 ! Summary
 
-Adds custom controls to the BlueBox for References.
+Adds custom controls to the GSDPanel for References.
 
 ! Detail
 
-The `$:/tags/GSD5ReferencePlugin` tag is used to provide a end-user interface in [[Reference]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[Blue-Box]].
+The `$:/tags/GSD5ReferencePlugin` tag is used to provide a end-user interface in [[Reference]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[GSDPanel]].
 
 ! Best Practice
 

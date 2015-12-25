@@ -1,14 +1,14 @@
 title: GSD5ReferenceCore
 caption: $:/tags/GSD5ReferenceCore
-tags: BlueBoxTags API
+tags: GSDPanelTags API
 
 ! Summary
 
-Adds controls to the BlueBox for References.
+Adds controls to the GSDPanel for References.
 
 ! Detail
 
-The `$:/tags/GSD5ReferenceCore` tag is used to provide a end-user interface in [[Reference]] tiddlers.  A tiddler with this tag will have its contents rendered in the left column of the [[Blue-Box]].
+The `$:/tags/GSD5ReferenceCore` tag is used to provide a end-user interface in [[Reference]] tiddlers.  A tiddler with this tag will have its contents rendered in the left column of the [[GSDPanel]].
 
 ! Best Practice
 

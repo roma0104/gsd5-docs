@@ -2,7 +2,9 @@ title: <$prereq>
 tags: GSD5Widgets
 
 ! Introduction
-The `<$prereq>` widget assigns the tiddler as a dependant of the selected value.  This will automatically change the current tiddler's `gsd_status` field to "future" if the current tiddler is an Action.  While Projects can depend on other Projects, this will change their status.  Much of the behaviour of the `prereq` widget is identitical to the `<$select>` widget.
+The `<$prereq>` widget assigns the tiddler as a dependant of the selected value.  This will automatically change the current tiddler's `gsd_status` field to "future" if the current tiddler is an Action.  While Projects can depend on other Projects, this wdiget is not responsible for managing dependent Projects.  Projects do not have any special behaivour attached to their prerequisite status changes, so this is governed by the normal `<$select>` widget.
+
+Much of the behaviour of the `prereq` widget is identitical to the `<$select>` widget.
 
 ! Content and Attributes
 The content of the `<$prereq>` widget should be one or more HTML `<option>` or `<optiongroup>` elements that provide the available values.

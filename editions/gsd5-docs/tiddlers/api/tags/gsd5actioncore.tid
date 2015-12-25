@@ -1,14 +1,14 @@
 title: GSD5ActionCore
 caption: $:/tags/GSD5ActionCore
-tags: BlueBoxTags API
+tags: GSDPanelTags API
 
 ! Summary
 
-Adds controls to the BlueBox for Actions.
+Adds controls to the GSDPanel for Actions.
 
 ! Detail
 
-The `$:/tags/GSD5ActionCore` tag is used to provide a end-user interface in [[Action]] tiddlers.  A tiddler with this tag will have its contents rendered in the left column of the [[Blue-Box]].
+The `$:/tags/GSD5ActionCore` tag is used to provide a end-user interface in [[Action]] tiddlers.  A tiddler with this tag will have its contents rendered in the left column of the [[GSDPanel]].
 
 ! Best Practice
 

@@ -1,14 +1,14 @@
 title: GSD5ContextPlugin
 caption: $:/tags/GSD5ContextPlugin
-tags: BlueBoxTags API
+tags: GSDPanelTags API
 
 ! Summary
 
-Adds custom controls to the BlueBox for Contexts.
+Adds custom controls to the GSDPanel for Contexts.
 
 ! Detail
 
-The `$:/tags/GSD5ContextPlugin` tag is used to provide a end-user interface in [[Context]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[Blue-Box]].
+The `$:/tags/GSD5ContextPlugin` tag is used to provide a end-user interface in [[Context]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[GSDPanel]].
 
 ! Best Practice
 

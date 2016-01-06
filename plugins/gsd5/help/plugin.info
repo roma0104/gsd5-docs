@@ -1,0 +1,7 @@
+{
+	"title": "$:/plugins/gsd5/help",
+	"description": "Help panel for GSD5 usage",
+	"author": "JeremyRuston, roma0104",
+	"core-version": ">=5.0.0",
+	"list": "readme"
+}

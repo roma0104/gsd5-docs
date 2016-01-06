@@ -17,7 +17,7 @@ The following field variables are used by References.
 |~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
 
 !! UI Controls
-Action tiddlers also display specific controls in the [[Blue-Box]].  UI Controls can be added to the Blue-Box using the following system tags.
+Action tiddlers also display specific controls in the [[GSDPanel]].  UI Controls can be added to the GSDPanel using the following system tags.
 
 * [[$:/tags/GSD5ActionCore|GSD5ReferenceCore]]
 * [[$:/tags/GSD5ActionPlugin|GSD5ReferencePlugin]]

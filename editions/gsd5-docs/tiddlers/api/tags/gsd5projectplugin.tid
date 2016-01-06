@@ -1,14 +1,14 @@
 title: GSD5ProjectPlugin
 caption: $:/tags/GSD5ProjectPlugin
-tags: BlueBoxTags API
+tags: GSDPanelTags API
 
 ! Summary
 
-Adds custom controls to the BlueBox for Projects.
+Adds custom controls to the GSDPanel for Projects.
 
 ! Detail
 
-The `$:/tags/GSD5ProjectPlugin` tag is used to provide a end-user interface in [[Project]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[Blue-Box]].
+The `$:/tags/GSD5ProjectPlugin` tag is used to provide a end-user interface in [[Project]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[GSDPanel]].
 
 ! Best Practice
 

@@ -1,14 +1,14 @@
 title: GSD5ContactCore
 caption: $:/tags/GSD5ContactCore
-tags: BlueBoxTags API
+tags: GSDPanelTags API
 
 ! Summary
 
-Adds controls to the BlueBox for Contacts.
+Adds controls to the GSDPanel for Contacts.
 
 ! Detail
 
-The `$:/tags/GSD5ContactCore` tag is used to provide a end-user interface in [[Contact]] tiddlers.  A tiddler with this tag will have its contents rendered in the left column of the [[Blue-Box]].
+The `$:/tags/GSD5ContactCore` tag is used to provide a end-user interface in [[Contact]] tiddlers.  A tiddler with this tag will have its contents rendered in the left column of the [[GSDPanel]].
 
 ! Best Practice
 

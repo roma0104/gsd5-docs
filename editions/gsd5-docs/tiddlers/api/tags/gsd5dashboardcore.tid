@@ -1,14 +1,14 @@
 title: GSD5DashboardCore
 caption: $:/tags/GSD5DashboardCore
-tags: BlueBoxTags API
+tags: GSDPanelTags API
 
 ! Summary
 
-Adds controls to the BlueBox for the primary [[Dashboard]].
+Adds controls to the GSDPanel for the primary [[Dashboard]].
 
 ! Detail
 
-The `$:/tags/GSD5DashboardCore` tag is used to provide a end-user interface in the [[Dashboard]].  A tiddler with this tag will have its contents rendered in the left column of the [[Blue-Box]].
+The `$:/tags/GSD5DashboardCore` tag is used to provide a end-user interface in the [[Dashboard]].  A tiddler with this tag will have its contents rendered in the left column of the [[GSDPanel]].
 
 ! Best Practice
 

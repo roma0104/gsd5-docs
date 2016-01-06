@@ -1,14 +1,14 @@
 title: GSD5ContextCore
 caption: $:/tags/GSD5ContextCore
-tags: BlueBoxTags API
+tags: GSDPanelTags API
 
 ! Summary
 
-Adds controls to the BlueBox for Contexts.
+Adds controls to the GSDPanel for Contexts.
 
 ! Detail
 
-The `$:/tags/GSD5ContextCore` tag is used to provide a end-user interface in [[Context]] tiddlers.  A tiddler with this tag will have its contents rendered in the left column of the [[Blue-Box]].
+The `$:/tags/GSD5ContextCore` tag is used to provide a end-user interface in [[Context]] tiddlers.  A tiddler with this tag will have its contents rendered in the left column of the [[GSDPanel]].
 
 ! Best Practice
 

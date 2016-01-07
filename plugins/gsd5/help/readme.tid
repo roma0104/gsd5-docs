@@ -1,5 +1,5 @@
 title: $:/plugins/gsd5/help/readme
 
-This plugin provides an overlay help panel at the bottom right of the window.
+This plugin provides an overlay help panel at the bottom right of the window specific to GSD5.  This is a adaptation of the help plugin found in GSD5 full edition.
 
-[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/help]]
+[[Original Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/help]]

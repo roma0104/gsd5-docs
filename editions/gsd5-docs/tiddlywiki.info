@@ -1,7 +1,6 @@
 {
 	"description": "Empty edition",
 	"plugins": [
-		"gsd5/core",
 		"gsd5/help"
 	],
 	"themes": [

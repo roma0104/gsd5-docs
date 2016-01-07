@@ -1,0 +1,11 @@
+title: $:/plugins/gsd5/help/HelpPanel/Concepts
+tags: $:/tags/HelpPanel
+caption: Concepts
+
+<$linkcatcher to="$:/plugins/gsd5/help/config/currentHelpTiddler">
+<div class="tc-table-of-contents">
+<<toc "$:/tags/HelpConcepts">>
+</div>
+
+<$transclude tiddler={{$:/plugins/gsd5/help/config/currentHelpTiddler}}/>
+</$linkcatcher>

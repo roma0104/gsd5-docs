@@ -6,7 +6,7 @@ tags: $:/tags/PageTemplate
 <div class="tc-tiddler-controls">
 <$button set="$:/config/ShowHelp" setTo="no" class="tc-btn-invisible">{{$:/core/images/close-button}}</$button> ''Help Panel''
 </div>
-<<tabs "[all[shadows+tiddlers]tag[$:/tags/HelpPanel]!has[draft.of]]" "$:/plugins/gsd5/help/HelpPanel/Support" "$:/state/tab/help">>
+<<tabs "[all[shadows+tiddlers]tag[$:/tags/HelpPanel]!has[draft.of]]" "$:/plugins/gsd5/help/HelpPanel/Intro" "$:/state/tab/help">>
 </div>
 </$reveal>
 

@@ -2,4 +2,8 @@ title: $:/plugins/gsd5/help/HelpPanel/Projects
 tags: $:/tags/HelpConcepts
 caption: Projects
 
-Projects are related Actions grouped together under an over-arching title.
+Projects are related [[Actions|$:/plugins/gsd5/help/HelpPanel/Actions]] grouped together under an over-arching title or label.  Projects are not tasks or Actions that can be done directly, but are completed indirectly through the Actions that are associated to the Project.  
+
+Projects have two statuses, Active and Future.  Active Projects are those that have Actions that are currently being completed.  Future Projects are those that rely on the completion of other Projects or cannot be worked on because of other circumstances.
+
+Active Projects should have at least one Next Actions, if it doesn't then you might spend some time to find what is delaying your Project.

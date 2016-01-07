@@ -2,4 +2,10 @@ title: $:/plugins/gsd5/help/HelpPanel/Actions
 tags: $:/tags/HelpConcepts
 caption: Actions
 
-Actions (could also be called tasks), are the most basic unit of the GTD/GSD workflow.  Everything is centered around [[collecting|$:/plugins/gsd5/help/HelpPanel/Collecting]] and completing Actions.
+Actions (could also be called tasks), are the most basic unit of the GTD/GSD workflow.  GSD5 is centered around [[collecting|$:/plugins/gsd5/help/HelpPanel/Collecting]] and completing Actions.
+
+An Action is a single step task that can be completed by you in a relatively short time.  //Pet the cat.//  If the Action is too complex or lengthy it might be better to make the Action smaller.  //Pet my brother's dog//, might be too complex of an Action from your house; it might be better to break it down to: //Go to brother's house// & //Pet brother's dog.//  //Petting my brother's dogs// might be a good oppurtunity for the use of [[Projects|$:/plugins/gsd5/help/HelpPanel/Projects]].
+
+Actions have three statuses, Next, Waiting, and Future.  Next Actions are Actions that can be done immediately.  Waiting Actions are Actions that must be completed by another person and need to be completed by that [[Contact|$:/plugins/gsd5/help/HelpPanel/Contacts]] before they can be marked off.  This can be a difficult concept to grasp but Actions that are Waiting cannot be done by you, otherwise you would be able to do the Action and it would be a Next Action.  Future Actions are those that cannot be done by your because they rely on the completion of other Actions or cannot be done immediately because of some other circumstance. 
+
+Actions can also have a prerequisite Action.  The Action depends on the completion of the prerequisite before it may be completed.  Actions depending on another Action have their statuses changed automatically between Future and Next.

@@ -7,5 +7,6 @@ caption: Concepts
 <<toc "$:/tags/HelpConcepts">>
 </div>
 
-<$transclude tiddler={{$:/plugins/gsd5/help/config/currentHelpTiddler}}/>
+
+<$transclude mode="block" tiddler={{$:/plugins/gsd5/help/config/currentHelpTiddler}}/>
 </$linkcatcher>

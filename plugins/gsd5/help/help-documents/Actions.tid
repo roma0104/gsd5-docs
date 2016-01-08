@@ -2,7 +2,7 @@ title: $:/plugins/gsd5/help/HelpPanel/Actions
 tags: $:/tags/HelpConcepts
 caption: Actions
 
-Actions (could also be called tasks), are the most basic unit of the GTD/GSD workflow.  GSD5 is centered around [[collecting|$:/plugins/gsd5/help/HelpPanel/Collecting]] and completing Actions.
+Actions (could also be called tasks), are the most basic unit of the GTD/GSD workflow.  GSD5 is centered around [[collecting|$:/plugins/gsd5/help/HelpPanel/CollectReview]] and completing Actions.
 
 An Action is a single step task that can be completed by you in a relatively short time.  //Pet the cat.//  If the Action is too complex or lengthy it might be better to make the Action smaller.  //Pet my brother's dog//, might be too complex of an Action from your house; it might be better to break it down to: //Go to brother's house// & //Pet brother's dog.//  //Petting my brother's dogs// might be a good oppurtunity for the use of [[Projects|$:/plugins/gsd5/help/HelpPanel/Projects]].
 
